@@ -14,7 +14,7 @@ on:
 env:
   AZURE_STATIC_WEBAPP_NAME: profile-site
   APP_DIRECTORY: AzureStaticSite
-  API_DIRECTORY: api
+  API_DIRECTORY: Api
   OUTPUT: wwwroot
   DEPLOYMENT_ENVIRONMENT: preview
 jobs:
