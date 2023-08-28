@@ -23,7 +23,7 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_BRAVE_OCEAN_0515E3100 }}
-          repo_token: ${{ ffdad3506f8227cb00163c3925dd1cc6b360a651178dff65187e3d816786ba473-ffea9633-fde0-41e0-86d3-9b9f157d4d6300073685 }} # Used for Github integrations (i.e. PR comments)
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
